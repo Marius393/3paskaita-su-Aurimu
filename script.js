@@ -1,8 +1,10 @@
-function sayHi() {
-    alert ('Labas rytas'); 
+function sayHi(word) {
+    alert (word); 
     
  }
 
- sayHi ();
+ sayHi ('laba diena');
+ sayHi ('Hello');
+ sayHi ('Guten Tag');
 
 
