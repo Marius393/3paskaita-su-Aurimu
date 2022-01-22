@@ -1,10 +1,10 @@
-function sayHi(word) {
-    alert (word); 
+function sayHi(name) {
+    return 'Labas' + ' ' + name; 
     
  }
 
- sayHi ('laba diena');
- sayHi ('Hello');
- sayHi ('Guten Tag');
+ const atsakymas = sayHi ('Aurimas');
+ alert(atsakymas)
+
 
 
