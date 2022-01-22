@@ -1,7 +1,7 @@
 function min(a, b) {
     if (a < b) {
         return a;
-    } else {
+    } else {  // nebūtinas else
         return b;
     }
 
